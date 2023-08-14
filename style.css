@@ -95,3 +95,13 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  h2,
+  p {
+    text-align: center;
+  }
+  p {
+    width: fit-content;
+  }
+}
